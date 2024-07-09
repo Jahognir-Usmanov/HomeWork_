@@ -1408,4 +1408,15 @@ ul {
         width: 60%;
         height: 60%;
     }
+    .screen_7_right_side h2 {
+        width: 100%;
+    }
+    .screen_7_right_side span {
+        width: 85%;
+        margin-top: -15px;
+
+    }
+    .screen_8 {
+        margin-top: 150px;
+    }
 }
