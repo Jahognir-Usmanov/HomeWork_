@@ -1013,10 +1013,10 @@ ul {
 
 
 .screen_9_text_email_submit_between {
-    border: none; /* Убираем границу */
-    background-color: #868686; /* Цвет линии */
-    color: #868686; /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    border: none;
+    background-color: #868686;
+    color: #868686;
+    height: 2px;
     width: 590px;
     margin-left: 55px;
     margin-top: 35px;
@@ -1163,6 +1163,9 @@ ul {
 
     .text3_screen3_btn {
         margin-left: 160px;
+    }
+    .info_text2_screen_3 span {
+        margin-left: 100px;
     }
     .info_text2_screen_3 h3 {
         margin-left: -4px;
