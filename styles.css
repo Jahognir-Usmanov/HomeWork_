@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .block_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+header .block_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .block_2 nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+header .block_2 nav a {
+    color: #FFFF;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.main_alchocol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #996B60;
+}
+
+.left_side, .right_side {
+    width: 100%;
+}
+
+.left_side img, .right_side img {
+    width: 100%;
+    height: auto;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.right_side h1 {
+    font-family: 'Liberation Serif';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #FFFF;
+}
+
+.right_side p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFF;
+}
+
+.btn {
+    background-color: #996B60;
+    width: 100%;
+    height: 52px;
+    margin-top: 20px;
+}
+
+.alchocol_info, .alchocol_screen_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.screen_1_h3 {
+    font-family: 'Liberation Serif';
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFF;
+}
+
+.screen_3_h2, .screen_3_span {
+    font-family: 'Liberation Serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFF;
+}
+
+.screen_3_span {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFF;
+}
+
+.text1_screen_3, .text2_screen_3, .text3_screen_3 {
+    text-align: center;
+}
+
+.text1_screen_3 img, .text2_screen_3 img, .text3_screen_3 img {
+    margin: 10px auto;
+}
+
+.info_text1_screen_3 h3, .info_text2_screen_3 h3, .info_text3_screen_3 h3 {
+    font-family: 'Liberation Serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.info_text1_screen_3 span, .info_text2_screen_3 span, .info_text3_screen_3 span {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.text1_screen3_btn, .text2_screen3_btn, .text3_screen3_btn {
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #191919;
+    color: #FFFFFF;
+}
+
+.screen_4_photo {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen_4_photo img {
+    width: 100%;
+    height: auto;
+}
+
+.screen_4_h2, .screen_4_p {
+    font-family: 'Liberation Serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 10px;
+}
+
+.screen_5_left_side, .screen_5_right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.screen_5_left_side h3, .screen_5_left_side span {
+    font-family: 'Liberation Serif';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.screen_5_right_side img {
+    width: 100%;
+    height: auto;
+}
+
+.testimonials_screen_6 {
+    background-color: black;
+    color: #FFFF;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.testimonial .quote {
+    font-size: 16px;
+    font-style: italic;
+    color: #FFFF;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonial .author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFF;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    line-height: 21px;
+}
+
+.screen_7 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.screen_7_left_side, .screen_7_right_side {
+    margin: 20px;
+    text-align: left;
+}
+
+.screen_7_right_side h2, .screen_7_right_side span {
+    font-family: 'Liberation Serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.screen_7_btn {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #FFFF;
+}
+
+.screen_8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('screen_8_photo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.screen_8_mood {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.screen_8_mood h2 {
+    font-family: 'Liberation Serif';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.screen_8_btn {
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.screen_8_mood p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.screen_8_social_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    color: #FFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen_8_social_links_h3 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24;
+}
