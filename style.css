@@ -1341,6 +1341,7 @@ ul {
     .screen_4 {
         flex-wrap: wrap;
     }
+    
 
     .screen_4_photo {
         width: 100%;
@@ -1640,11 +1641,11 @@ ul {
         height: 100%;
     }
     .screen_4_h2 {
-        margin-left: 80px;
+        margin-left: 20px;
     }
 
     .screen_4_p {
-        margin-left: 80px;
+        margin-left: 20px;
     }
     .testimonials_screen_6 {
         background-color: black;
