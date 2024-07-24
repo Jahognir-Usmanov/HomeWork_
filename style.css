@@ -1386,20 +1386,21 @@ ul {
     }
 
     .screen_9_text_email {
-        margin-left: 90px;
+        margin-left: 130px;
     }
     .screen_9_left_side_text_span {
         margin-left: 14px;
         font-size: 14px;
     }
     .screen_9_text_email_submit_between {
+        margin-left: 90px;
         width: 200px;
 
     }
     .screen_9_text_submit {
         width: 60%;
         margin-top: 20px;
-        margin-left: 130px;
+        margin-left: 170px;
     }
     .footer {
         width: 100px;
